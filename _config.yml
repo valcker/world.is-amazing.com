@@ -18,6 +18,7 @@ url: http://world.is-amazing.com
 root: /
 permalink: :lang/:year/:month/:day/:title/
 permalink_defaults:
+  lang: en
 
 # Directory
 source_dir: source
