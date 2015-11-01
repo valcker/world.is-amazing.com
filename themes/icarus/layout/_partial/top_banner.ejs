@@ -1,0 +1,22 @@
+<div id="top-banner">
+  <div class="pagetitle-prefix">//</div>
+  <div class="pagetitle">
+    <% if (page.layout === undefined) { %>
+    <% if (page.current_url === '') { %>
+    Home
+    <% } else if (page.archive === true) { %>
+    Archive
+    <% } else if (page.category !== undefined) { %>
+    Categories
+    <% } else if (page.tag !== undefined) { %>
+    Tags
+    <% } %>
+    <% } else if (page.layout == 'tags') { %>
+    Tags
+    <% } else if (page.layout == 'categories') { %>
+    Categories
+    <% } else if (page.layout == 'post' || page.layout == 'page') { %>
+    Happy reading :)
+    <% } %>
+  </div>
+</div>

@@ -1,0 +1,55 @@
+# Logo
+logo: css/images/logo_earth.png # Empty this to unset logo
+
+# Header
+menu:
+  Home: .
+  Archives: archives
+  Categories: categories
+  Tags: tags
+  About: about
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Banner
+banner_background: /css/images/banner.png
+
+# Profile
+profile: false # whether to show profile bar
+gravatar: false # whether to use gravatar with the email
+showlogo: false # whether to show the logo in the header
+
+# Sidebar
+sidebar: right # set to false if you don't want a sidebar
+widgets:
+- info
+- recent_posts
+- category
+- tag
+- tagcloud
+#- archive
+thumbnail: true
+
+# Contacts
+contacts:
+  flickr: http://flickr.com/photos/valcker
+  500px: http://500px.com/valcker
+  rss: atom.xml
+
+# Links
+#links:
+#  Hexo: http://hexo.io
+
+# CDN
+cdn: google #If your site loads slowly change it to "google" , because "useso" is slow out of China
+
+# Miscellaneous
+google_site_verification:
+google_analytics:
+favicon: favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
