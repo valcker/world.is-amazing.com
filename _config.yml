@@ -11,6 +11,7 @@ language:
 - en
 - ru
 timezone: Europe/Paris
+since: 2015
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -66,7 +67,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: minos
+theme: icarus
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

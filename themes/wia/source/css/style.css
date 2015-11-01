@@ -1,0 +1,39 @@
+.navbar-wia {
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.navbar-wia .navbar-nav>.active>a, .navbar-wia .navbar-nav>.active>a:focus, .navbar-wia .navbar-nav>.active>a:hover {
+    background-color: #fff;
+}
+
+.navbar-brand-wia {
+    height: 64px;
+    line-height: 35px;
+}
+
+.navbar-wia .navbar-brand-wia {
+    color: #565a5f;
+    font-family: "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    transition: 0.2s ease;
+}
+
+a:visited {
+    color: #38b7ea;
+}
+
+a {
+    color: #38b7ea;
+}
+
+.navbar-nav-wia > li > a {
+    line-height: 34px;
+}
+
+/*.navbar-nav-wia*/
